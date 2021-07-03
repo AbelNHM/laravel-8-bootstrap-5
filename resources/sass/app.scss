@@ -6,3 +6,15 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Style Project
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: -75px;
+        top: 40px;
+    }
+}
